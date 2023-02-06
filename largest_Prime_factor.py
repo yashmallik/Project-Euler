@@ -1,8 +1,9 @@
 import math
+list_prime = list()
 
 
 def prime_factor(n):
-    list_prime = list()
+
     while n % 2 == 0:
         list_prime.append(2)
         n = n/2
