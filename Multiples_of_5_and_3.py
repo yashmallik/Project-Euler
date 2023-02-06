@@ -1,7 +1,7 @@
 sum = 0
-count = 1
-while count < 1000:
-    if count % 3 == 0 or count % 5 == 0:
-        sum += count
-    count += 1
+counts = 1
+while counts < 1000:
+    if counts % 3 == 0 or counts % 5 == 0:
+        sum += counts
+    counts += 1
 print(sum)
